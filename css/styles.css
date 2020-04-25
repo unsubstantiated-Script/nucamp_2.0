@@ -70,3 +70,7 @@ header h2 {
     color: #fff;
     text-decoration: none;
 }
+
+.acord-tab:hover {
+    cursor: pointer;
+}
