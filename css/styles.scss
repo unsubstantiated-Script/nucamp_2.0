@@ -1,0 +1,91 @@
+$color-primary: #3046c5;
+$color-secondary: #5637dd;
+$color-pale: #cec8ff;
+$color-mid: #901cad;
+$color-dark: #60106b;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+
+header {
+  h2 {
+    color: $color-pale;
+  }
+}
+
+body,
+small {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Lobster", cursive;
+}
+
+h2 {
+  color: $color-primary;
+}
+
+.site-footer {
+  padding: 20px 0;
+}
+
+.jumbotron {
+  padding: 30px;
+  color: white;
+  margin: 0;
+}
+
+.row-content {
+  padding: 50px 0;
+
+  min-height: 200px;
+}
+
+.row-content-1 {
+  padding: 50px 0;
+  min-height: 200px;
+}
+
+.row-content-2 {
+  padding-top: 60px;
+  min-height: 200px;
+}
+
+.navbar {
+  background-color: $color-mid;
+}
+
+/* .tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+} */
+
+.carousel-caption {
+  background-color: rgba(144, 28, 173, 0.5);
+}
+
+.carousel {
+  border: solid $color-secondary;
+}
+
+.pink-link {
+  color: $color-pale;
+}
+
+.pink-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.acord-tab:hover {
+  cursor: pointer;
+}
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}

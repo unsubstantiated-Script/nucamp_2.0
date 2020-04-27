@@ -1,0 +1,83 @@
+body,
+small {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color: #3046C5;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+.site-footer {
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 30px;
+    color: white;
+    margin: 0;
+}
+
+.row-content {
+    padding: 50px 0;
+
+    min-height: 200px;
+}
+
+.row-content-1 {
+    padding: 50px 0;
+    min-height: 200px;
+}
+
+.row-content-2 {
+    padding-top: 60px;
+    min-height: 200px;
+}
+
+
+.navbar {
+    background-color: #901CAD;
+}
+
+/* .tab-content {
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 10px;
+} */
+
+.carousel-caption {
+    background-color: rgba(144, 28, 173, 0.5);
+}
+
+.carousel {
+    border: solid #5637dd;
+}
+
+.pink-link {
+    color: #CEC8FF;
+}
+
+.pink-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.acord-tab:hover {
+    cursor: pointer;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
