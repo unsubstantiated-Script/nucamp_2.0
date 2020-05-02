@@ -37,7 +37,7 @@
 
 
   <!-- NavBar -->
-  <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+  <nav class="navbar navbar-expand-sm navbar-dark             sticky-top">
     <div class="container">
       <a class="navbar-brand" href="#"><img src="img/logo.png" height="30" width="30" /></a>
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#nucampNavbar">
@@ -61,8 +61,8 @@
         </ul>
 
         <!-- Login Button -->
-        <span class="navbar-text ml-auto">
-          <a data-toggle="modal" data-target="#loginModal">
+        <span class=" navbar-text ml-auto">
+          <a class="btn btn-dark" id="loginButton">
             <i class="fa fa-sign-in"></i> Login
           </a>
         </span>
@@ -79,7 +79,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h3 class="modal-title">Login</h3>
-          <button class="close" type="button" data-dismiss="modal"> &times; </button>
+          <button class="close text-white" type="button" data-dismiss="modal"> &times; </button>
         </div>
 
         <div class="modal-body">
@@ -260,7 +260,7 @@
     <!-- Reserve Button -->
     <div class="py-5">
       <div class="text-center">
-        <button class="btn btn-lg bg-info text-white" data-toggle="modal" data-target="#reserveModal">
+        <button class="btn btn-lg bg-info text-white" id="reserveButton">
           <h3>Make a Reservation</h3>
         </button>
       </div>

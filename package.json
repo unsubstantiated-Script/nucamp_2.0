@@ -6,7 +6,7 @@
   "scripts": {
     "lite": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass -w css/ -o css/",
+    "scss": "node-sass -o css/ css/",
     "watch:scss": "onchange 'css/*.scss' -- npm run scss",
     "watch:all": "parallelshell 'npm run watch:scss' 'npm run lite'",
     "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
